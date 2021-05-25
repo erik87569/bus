@@ -1,0 +1,15 @@
+services:
+  web:
+    container_name: bus-web
+    build:
+      context: bus-web
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+  api:
+    container_name: bus-api
+    build:
+      context: bus-api
+      dockerfile: src/main/docker/Dockerfile.jvm
+    ports:
+      - "9090:9090"
