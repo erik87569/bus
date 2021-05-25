@@ -13,3 +13,15 @@ cd ..
 docker-compose -f dev.yml build
 docker-compose -f dev.yml up
 ```
+
+You can also start the backend with:
+```
+cd bus-api
+mvn compile quarkus:dev
+```
+
+And the front end:
+```
+cd bus-web
+npm run start
+```
