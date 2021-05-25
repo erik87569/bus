@@ -17,7 +17,7 @@ docker-compose -f dev.yml up
 You can also start the backend with:
 ```
 cd bus-api
-mvn compile quarkus:dev
+./mvnw compile quarkus:dev
 ```
 
 And the front end:
