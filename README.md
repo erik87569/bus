@@ -25,3 +25,5 @@ And the front end:
 cd bus-web
 npm run start
 ```
+
+When everything is started access the web-site on http://localhost:3000
